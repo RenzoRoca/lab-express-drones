@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 require('../configs/db.config')
 const Drone = require('../models/Drone.model')
 
+/*
 const drones = [
     { name: 'Creeper XL 500', propellers: 3, maxSpeed: 12 },
     { name: 'Racer 57', propellers: 4, maxSpeed: 20 },
@@ -19,3 +20,4 @@ Drone.create(drones)
     .catch(err => {
         console.log(err);
     });
+*/
